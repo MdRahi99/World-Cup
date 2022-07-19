@@ -246,6 +246,10 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
+    .match .teams-logo{
+        display: flex;
+        justify-content: center;
+    }
     /* Matches */
     /* Main */
 
