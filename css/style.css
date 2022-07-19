@@ -221,14 +221,14 @@ body{
     /* Content */
     /* Blogs */
     .blogs{
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 24px 0px;
     }
     .blog{
-        width: 90%;
-        margin-left: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .blog .blog-img img{
         width: 100%;
@@ -237,9 +237,14 @@ body{
 
     /* Matches */
     .matches{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 24px 45px;
+        margin: 24px 0px;
+    }
+    .match{
+        margin-left: 20px;
+        margin-right: 20px;
     }
     /* Matches */
     /* Main */
