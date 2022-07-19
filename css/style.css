@@ -175,7 +175,7 @@ body{
     .home{
         display: flex;
         flex-direction: column;
-        margin: 21px 44px;
+        margin: 21px 45px;
         background-color: rgb(53, 73, 94);
     }
     .home-info{
@@ -196,11 +196,11 @@ body{
     }
     .home-info button{
         margin-bottom: 0px;
-        margin-left: 80px;
+        margin-left: 60px;
         background-color: rgb(62, 178, 213);
     }
     .home-img{
-        margin: 0px 38px;
+        margin: 0px 20px;
     }
     /* Home */
 
@@ -208,11 +208,12 @@ body{
     .main-section{
         display: flex;
         flex-direction: column;
-        margin: 24px 83px;
+        margin: 24px 30px;
     }
     /* Content */
     .main-section .contents{
-        width: 100%;
+        width: 70%;
+        margin-left: 55px;
         background-color: rgb(53, 73, 94);
     }
     /* Content */
@@ -220,7 +221,7 @@ body{
     .blogs{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 24px 0px;
+        margin: 24px 38px;
     }
     /* Blogs */
 
