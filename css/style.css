@@ -170,7 +170,7 @@ body{
 
 /* Responsive Style */
 /* Mobile View */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 688px) {
     /* Home */
     .home{
         display: flex;
