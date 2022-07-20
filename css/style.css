@@ -8,7 +8,7 @@ body{
 .home{
     display: flex;
     background-color: #60a6b0;
-    margin: 50px 140px;
+    margin: 50px 40px;
     border-radius: 30px;
 }
 .home-info{
@@ -35,9 +35,7 @@ body{
     border: none;
 }
 .home-img{
-    width: 50%;
-    margin-right: 89px;
-    margin-top: 33px;
+    margin-top: 120px;;
 }
 .home-img img{
     height: 100%;
@@ -46,13 +44,14 @@ body{
 
 /* Main Section Style */
 .main-section{
+    width: 90%;
     display: flex;
-    margin: 130px 140px;
+    margin: 50px 40px;
     border-radius: 10px;
 }
 .contents{
     width: 20%;
-    height: 350px;
+    height: 320px;
     background-color: #60a6b0;
     border-radius: 10px;
     display: flex;
@@ -85,16 +84,18 @@ body{
 }
 /* Blogs */
 .blogs{
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    margin-right: 24px;
 }
 .blog{
     border-radius: 5px;
     box-shadow: 0px 0px 3px #d1cfcf;
+}
+.blog .blog-img img{
+    width: 100%;
 }
 .blog .blog-info{
     padding: 20px 20px;
@@ -118,21 +119,21 @@ body{
     margin-left: 30px;
 }
 
-.blog-view{
+.blog-view .b_view{
     display: none;
 }
 /* Blogs */
 
 /* Upcoming Matches */
 .matches{
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
 }
 .match{
-    padding: 52px 30px;
+    padding: 52px 50px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0px 0px 5px rgb(222, 223, 223);
@@ -189,14 +190,12 @@ body{
         width: 90%;
         display: flex;
         flex-direction: column;
-        margin: 20px 20px;
+        margin: 20px 30px;
         background-color: rgb(53, 73, 94);
     }
     .home-info{
-        width: 90%;
-        margin: 28px 0px;
-        margin-left: 12px;
-        align-items: center;
+        width: 100%;
+        margin: 20px 10px;
     }
     .home-info h2{
         font-size: 22px;
@@ -207,15 +206,16 @@ body{
         width: 90%; 
         overflow: hidden;
         text-overflow: ellipsis; 
-        margin-left: 15px;
+        margin: 20px;
     }
     .home-info button{
-        margin-bottom: 0px;
-        margin-left: 100px;
         background-color: rgb(62, 178, 213);
+        margin-left: 30%;
+        margin-bottom: 20px;
     }
     .home-img{
-        margin: 0px 60px;
+
+        margin: 0px 0px;
     }
     /* Home */
 
@@ -227,8 +227,8 @@ body{
     }
     /* Content */
     .main-section .contents{
-        width: 70%;
-        margin-left: 65px;
+        width: 80%;
+        margin: 10px 80px;
         background-color: rgb(53, 73, 94);
     }
     /* Content */
@@ -240,8 +240,7 @@ body{
         margin: 24px 0px;
     }
     .blog{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
     }
     .blog .blog-img img{
         width: 100%;
@@ -256,8 +255,7 @@ body{
         margin: 24px 0px;
     }
     .match{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
     }
     .match .teams-logo{
         display: flex;
@@ -287,30 +285,26 @@ body{
 /* Mobile View */
 
 /* Tablet View */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 1343px) {
     /* Home */
     .home{
         width: 90%;
-        margin: 20px 20px;
+        margin: 20px 40px;
         background-color: rgb(59, 140, 136);
     }
     .home-info{
+        width: 40%;
         margin-left: 8%;
-        margin-top: 20px;
+        margin-right: 8%;
+        margin-top: 8%;
     }
     .home-info h2{
-        font-size: 30px;
+        font-size: 40px;
     }
     .home-info p{
         white-space: nowrap;  
         overflow: hidden;
         text-overflow: ellipsis; 
-    }
-    .home-img{
-        margin-right: 5px;
-    }
-    .home-img img{
-        width: 100%;
     }
     /* Home */
 
@@ -319,22 +313,20 @@ body{
         width: 90%;
         display: flex;
         flex-direction: column;
-        margin: 20px 20px;
+        margin: 20px 40px;
         border-radius: 5px;
     }
     /* Contents */
     .contents{
-        width: 100%;
+        width: 90%;
         height: 100px;
         background-color: white;
         display: flex;
         flex-direction: row;
-        margin: 15px 0px;
-    }
-    .contents .upcoming-matches, .groups,.main-blog{
-        width: 33%;
+        margin: 15px 50px;
     }
     .contents button{
+        width: 33%;
         padding: 0px 0px;
         border: 1 px solid rgb(187, 186, 186);
         box-shadow: 0px 0px 1px;
@@ -364,10 +356,9 @@ body{
     }
 
     .blog-view{
-        display: block;
-        text-align: center;
     }
-    .blog-view button{
+    .blog-view .b_view{
+        display: block;
         background-color: #5eaeba;
         border: none;
         padding: 10px 8px;
@@ -375,6 +366,7 @@ body{
         font-size: 16px;
         font-weight: 600;
         color: white;
+        margin-left: 46%;
     }
     /* Blogs */
     /* Matches */
@@ -387,9 +379,10 @@ body{
     .match{
         width: 90%;
         padding: 26px 15px;
+        margin-left: 30px;
     }
     .match .teams-logo img{
-        width: 30%;
+        width: 50%;
     }
     .match .match-info h3{
         font-size: 16px;
