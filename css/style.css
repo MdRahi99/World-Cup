@@ -179,7 +179,7 @@ body{
 
 /* Responsive Style */
 /* Mobile View */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 688px) {
     /* Home */
     .home{
         width: 90%;
@@ -283,7 +283,7 @@ body{
 /* Mobile View */
 
 /* Tablet View */
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     /* Home */
     .home{
         width: 90%;
