@@ -201,8 +201,8 @@ body{
         background-color: rgb(53, 73, 94);
     }
     .home-info{
-        width: 100%;
-        margin: 20px 10px;
+        width: 90%;
+        margin: 20px 15px;
     }
     .home-info h2{
         font-size: 22px;
@@ -217,11 +217,11 @@ body{
     }
     .home-info button{
         background-color: rgb(62, 178, 213);
-        margin-left: 30%;
+        margin-left: 25%;
         margin-bottom: 20px;
     }
     .home-img{
-        margin: 0px 20%;
+        margin: 0px 10%;
     }
     /* Home */
 
@@ -234,7 +234,8 @@ body{
     /* Content */
     .main-section .contents{
         width: 80%;
-        margin: 10px 80px;
+        margin: 5% 0px;
+        margin-left: 15%;
         background-color: rgb(53, 73, 94);
     }
     /* Content */
@@ -246,7 +247,7 @@ body{
         margin: 24px 0px;
     }
     .blog{
-        margin-left: 50px;
+        margin-left: 10%;
     }
     .blog .blog-img img{
         width: 100%;
@@ -261,7 +262,7 @@ body{
         margin: 24px 0px;
     }
     .match{
-        margin-left: 50px;
+        margin-left: 10%;
     }
     .match .teams-logo{
         display: flex;
@@ -271,19 +272,23 @@ body{
     /* Main */
 
     /* Footer */
+    .footer{
+        width: 100%;
+    }
     .footer .footer-links{
         padding: 14px 0px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 40px;
-        margin-left: 30px;
+        margin-left: 10%;
         margin-top: 50px;
     }
     .footer .footer-icon{
         margin-top: 20px;
+        margin-left: 5%;
     }
     .footer .footer-icon a{
-        margin: 0px 10px;
+        margin: 0px 3%;
         font-size: 24px;
     }
     /* Footer */
