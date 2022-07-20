@@ -344,12 +344,40 @@ body{
 
     /* Blogs */
     .blogs{
-        display: none;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10px;
     } 
+    .blog{
+        width: 100%;
+    }
+    .blog .blog-img img{
+        width: 100%;
+    }
+    .blog .blog-info h4{
+        font-size: 12px;
+    }
     /* Blogs */
     /* Matches */
     .matches{
-        display: none;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 10px;
+    }
+    .match{
+        width: 90%;
+        padding: 26px 15px;
+    }
+    .match .teams-logo img{
+        width: 30%;
+    }
+    .match .match-info h3{
+        font-size: 16px;
+    }
+    .match .match-info p{
+        font-size: 14px;
     }
     /* Matches */
     /* Main */
