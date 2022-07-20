@@ -117,6 +117,10 @@ body{
 .blog .blog-info .fa-message{
     margin-left: 30px;
 }
+
+.blog-view{
+    display: none;
+}
 /* Blogs */
 
 /* Upcoming Matches */
@@ -357,6 +361,20 @@ body{
     }
     .blog .blog-info h4{
         font-size: 12px;
+    }
+
+    .blog-view{
+        display: block;
+        text-align: center;
+    }
+    .blog-view button{
+        background-color: #5eaeba;
+        border: none;
+        padding: 10px 8px;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
     }
     /* Blogs */
     /* Matches */
