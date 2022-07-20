@@ -62,7 +62,7 @@ body{
 .contents button{
     padding: 17px 39px;
     border-radius: 10px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     font-size: 20px;
     margin-top: 30px;
     margin-left: 30px;
@@ -77,10 +77,10 @@ body{
 .contents .main-blogs{
     background-color: rgb(70, 129, 155);
 }
-.contents .color-1{
+.contents .upcoming-match{
     background-color: rgb(70, 129, 155);
 }
-.contents .main-blogs a, .contents .color-1 a{
+.contents .main-blogs a, .contents .upcoming-match a{
     color: white;
 }
 /* Blogs */
@@ -165,6 +165,15 @@ body{
     font-size: 16px;
     color: #f3f2f2;
     margin-right: 30px;
+}
+.footer .footer-icon{
+    padding-bottom: 40px;
+}
+.footer .footer-icon a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 30px;
+    color: white;
 }
 /* Footer Section Style */
 
@@ -255,13 +264,105 @@ body{
 
     /* Footer */
     .footer .footer-links{
-        padding: 14px 24px;
+        padding: 14px 0px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 40px;
+        margin-left: 30px;
         margin-top: 50px;
+    }
+    .footer .footer-icon{
+        margin-top: 20px;
+    }
+    .footer .footer-icon a{
+        margin: 0px 10px;
+        font-size: 24px;
     }
     /* Footer */
 }
 /* Mobile View */
+
+/* Tablet View */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Home */
+    .home{
+        width: 90%;
+        margin: 20px 20px;
+        background-color: rgb(59, 140, 136);
+    }
+    .home-info{
+        margin-left: 8%;
+        margin-top: 20px;
+    }
+    .home-info h2{
+        font-size: 30px;
+    }
+    .home-info p{
+        white-space: nowrap;  
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    .home-img{
+        margin-right: 5px;
+    }
+    .home-img img{
+        width: 100%;
+    }
+    /* Home */
+
+    /* Main */
+    .main-section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px;
+        border-radius: 5px;
+    }
+    /* Contents */
+    .contents{
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: 15px 0px;
+    }
+    .contents .upcoming-matches, .groups,.main-blog{
+        width: 33%;
+    }
+    .contents button{
+        padding: 0px 0px;
+        border: 1 px solid rgb(187, 186, 186);
+        box-shadow: 0px 0px 1px;
+        font-size: 15px;
+        margin: 20px 10px;
+    }
+    .contents .main-blogs{
+        background-color: rgb(45, 101, 138);
+    }
+    /* Contents */
+
+    /* Blogs */
+    .blogs{
+        display: none;
+    } 
+    /* Blogs */
+    /* Matches */
+    .matches{
+        display: none;
+    }
+    /* Matches */
+    /* Main */
+
+    /* Footer */
+    .footer .footer-links{
+        padding: 0px 0px;
+        margin: 30px 30px;
+    }
+    .footer .footer-links a{
+        margin-right: 30px;
+    }
+    /* Footer */
+}
+/* Tablet View */
 /* Responsive Style */
